@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Transformer">
+      <UniqueIdentifier>{ff59e5ed-d82c-4591-a634-9804d69280dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\AddNormLayer">
+      <UniqueIdentifier>{2c9b6aea-1ef4-482d-9ed3-96ae2c2267f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\FeedFowardLayer">
+      <UniqueIdentifier>{8a4c7715-b5f9-4001-aaae-f0a535c541be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\FeedFowardLayer\MLP">
+      <UniqueIdentifier>{17055590-6f77-4daf-b21e-50a1076a4845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\FeedFowardLayer\MLP\Activation-Functions">
+      <UniqueIdentifier>{9ffe54c9-67a4-4b02-b64e-036855fd0768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\FeedFowardLayer\MLP\MLP-Layer">
+      <UniqueIdentifier>{892193d6-48dc-42e9-8fb5-ba59af8e5e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\FeedFowardLayer\MLP\Loss-Functions">
+      <UniqueIdentifier>{2d1a8066-feb1-4f75-96cc-0010f573f0e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\FeedFowardLayer\MLP\MLP-Builder">
+      <UniqueIdentifier>{40fafd3c-2f43-476a-991f-1d9f73b55273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\Scaled-Dot-Product-Attention">
+      <UniqueIdentifier>{78281cb2-7fb8-4a00-b0b7-36a1759caab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\Scaled-Dot-Product-Attention\MatMult-Layer">
+      <UniqueIdentifier>{df950104-33a4-43e2-a7a1-20825d2dd51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\Scaled-Dot-Product-Attention\Scaled-Layer">
+      <UniqueIdentifier>{49d4bb8d-4b25-4655-8e7b-b14cea37f00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\Scaled-Dot-Product-Attention\Softmax-Layer">
+      <UniqueIdentifier>{311bf8fa-4342-43ea-827f-f38d0a011e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\Multi-Head-Attention">
+      <UniqueIdentifier>{d6ca4b19-40ff-490e-879c-9da23f0a895c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\Multi-Head-Attention\Attention-Head">
+      <UniqueIdentifier>{17eb60f5-5974-4fea-a6b3-0cba89131849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\Decoder">
+      <UniqueIdentifier>{c40c2921-1952-432d-aa6d-751a8a1c7e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\Encoder">
+      <UniqueIdentifier>{6202ebfa-bb47-48d4-b518-df08dadae7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\Encoder\Embedding">
+      <UniqueIdentifier>{dbe56eed-9171-423b-accd-d61c4a7d9547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\Encoder-Decoder-Transformer">
+      <UniqueIdentifier>{5acf3579-cd4f-479f-9c37-2ca5d9c7a2be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformer\Transformer-Builder">
+      <UniqueIdentifier>{765262eb-3826-43cd-b12c-608238f45eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{76003edd-b753-4427-a272-93eedd9fe5af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main-Project">
+      <UniqueIdentifier>{5b55b703-10fd-451e-a99d-1638131e4576}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tansformer\add-norm\Add-Norm.cpp">
+      <Filter>Transformer\AddNormLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\feed-forward\FeedForward.cpp">
+      <Filter>Transformer\FeedFowardLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\feed-forward\mlp\multy-layer-perceptron.cpp">
+      <Filter>Transformer\FeedFowardLayer\MLP</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\feed-forward\mlp\activation-functions.cpp">
+      <Filter>Transformer\FeedFowardLayer\MLP\Activation-Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\feed-forward\mlp\layer.cpp">
+      <Filter>Transformer\FeedFowardLayer\MLP\MLP-Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\feed-forward\mlp\lost-function.cpp">
+      <Filter>Transformer\FeedFowardLayer\MLP\Loss-Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\feed-forward\mlp\mlp-builder.cpp">
+      <Filter>Transformer\FeedFowardLayer\MLP\MLP-Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\Scalled-Dot-Product-Attention\Scaled-Dot-Product-Attention.cpp">
+      <Filter>Transformer\Scaled-Dot-Product-Attention</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\Scalled-Dot-Product-Attention\Mat-Mult.cpp">
+      <Filter>Transformer\Scaled-Dot-Product-Attention\MatMult-Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\Scalled-Dot-Product-Attention\Scale.cpp">
+      <Filter>Transformer\Scaled-Dot-Product-Attention\Scaled-Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\Scalled-Dot-Product-Attention\Softmax.cpp">
+      <Filter>Transformer\Scaled-Dot-Product-Attention\Softmax-Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\Multy-Head-Attention\Multy-Head-Attention.cpp">
+      <Filter>Transformer\Multi-Head-Attention</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\Multy-Head-Attention\Attention-Head.cpp">
+      <Filter>Transformer\Multi-Head-Attention\Attention-Head</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\Decoder\Decoder.cpp">
+      <Filter>Transformer\Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\Encoder\Encoder.cpp">
+      <Filter>Transformer\Encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\Encoder\Encoder-Embeding.cpp">
+      <Filter>Transformer\Encoder\Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\Encoder-Decoder-Transformer\Encoder-Decoder-Transformer.cpp">
+      <Filter>Transformer\Encoder-Decoder-Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="tansformer\builder\TransformerBuilder.cpp">
+      <Filter>Transformer\Transformer-Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Main-Project\main.cpp">
+      <Filter>Main-Project</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tansformer\add-norm\Add-Norm.h">
+      <Filter>Transformer\AddNormLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\feed-forward\FeedForward.h">
+      <Filter>Transformer\FeedFowardLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\feed-forward\mlp\multy-layer-perceptron.h">
+      <Filter>Transformer\FeedFowardLayer\MLP</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\feed-forward\mlp\activation-functions.h">
+      <Filter>Transformer\FeedFowardLayer\MLP\Activation-Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\feed-forward\mlp\layer.h">
+      <Filter>Transformer\FeedFowardLayer\MLP\MLP-Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\feed-forward\mlp\lost-function.h">
+      <Filter>Transformer\FeedFowardLayer\MLP\Loss-Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\feed-forward\mlp\mlp-builder.h">
+      <Filter>Transformer\FeedFowardLayer\MLP\MLP-Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\Scalled-Dot-Product-Attention\Scaled-Dot-Product-Attention.h">
+      <Filter>Transformer\Scaled-Dot-Product-Attention</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\Scalled-Dot-Product-Attention\Mat-Mult.h">
+      <Filter>Transformer\Scaled-Dot-Product-Attention\MatMult-Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\Scalled-Dot-Product-Attention\Scale.h">
+      <Filter>Transformer\Scaled-Dot-Product-Attention\Scaled-Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\Scalled-Dot-Product-Attention\Softmax.h">
+      <Filter>Transformer\Scaled-Dot-Product-Attention\Softmax-Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\Multy-Head-Attention\Multy-Head-Attention.h">
+      <Filter>Transformer\Multi-Head-Attention</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\Multy-Head-Attention\Attention-Head.h">
+      <Filter>Transformer\Multi-Head-Attention\Attention-Head</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\Decoder\Decoder.h">
+      <Filter>Transformer\Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\Encoder\Encoder.h">
+      <Filter>Transformer\Encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\Encoder\Encoder-Embeding.h">
+      <Filter>Transformer\Encoder\Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\Encoder-Decoder-Transformer\Encoder-Decoder-Transformer.h">
+      <Filter>Transformer\Encoder-Decoder-Transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="tansformer\builder\TransformerBuilder.h">
+      <Filter>Transformer\Transformer-Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\basic-includes.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Main-Project\Dictionaries-and-Sentences.h">
+      <Filter>Main-Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Main-Project\Utils-Functions-For-Main.h">
+      <Filter>Main-Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
